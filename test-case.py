@@ -114,6 +114,3 @@ class Exercice_4_test_case(unittest.TestCase):
             exo = ex.Exercice_4("Paris")
             self.assertEqual(exo.localisation(),"voici ce que je connais de Paris: ")
 
-
-if __name__ == '__main__':
-    unittest.main(argv=['first-arg-is-ignor'], exit=False)
